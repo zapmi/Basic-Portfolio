@@ -84,3 +84,8 @@ footer section {
     margin-top: 10px;
     width: auto;
 }
+
+#messageBox {
+    width: 400px;
+    height: 180px;
+}
