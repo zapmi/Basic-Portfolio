@@ -65,9 +65,9 @@ nav a {
     width: 960px;
     /* position: relative; */
     margin: 0 auto;
-    margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 30px;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -117,7 +117,19 @@ footer section {
     /* width: 40px; */
 }
 
-*/ #messageBox {
+.contactSection {
+    width: 960px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.inputBoxes {
+    margin-left: 30px;
+    color: white;
+}
+
+#messageBox {
     width: 400px;
     height: 180px;
 }
