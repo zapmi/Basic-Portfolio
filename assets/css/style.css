@@ -58,21 +58,23 @@ nav a {
     text-decoration: none;
     /* removes underline from links */
 }
+nav a:hover {
+    color: red;
+    text-decoration: line-through;
+    
+}
 
 .sectionIndex {
     background-color: blue;
     color: white;
     width: 960px;
-    /* position: relative; */
     margin: 0 auto;
     margin-top: 30px;
-    /* margin-left: auto;
-    margin-right: auto; */
     padding: 10px;
     box-sizing: border-box;
 }
 
-#indexH1 {
+#indexH1, #portfolioH1 {
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
@@ -118,7 +120,7 @@ footer section {
     /* width: 40px; */
 }
 
-.contactSection {
+.sectionContact {
     width: 960px;
     height: 375px;
     background-color: blue;
@@ -127,7 +129,6 @@ footer section {
     padding: 0px 20px;
     box-sizing: border-box;
 }
-
 
 #contactH1 {
     font-size: 2em;
@@ -154,4 +155,24 @@ footer section {
 #messageBox {
     width: 400px;
     height: 150px;
+}
+
+.sectionPortfolio {
+    background-color: blue;
+    width: 960px;
+    height: 565px;
+
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+#portfolioH1 {
+    /* background-color: blue; */
+    padding-top: 10px;
+}
+
+.sectionImage {
+    float: left;
 }
