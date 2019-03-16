@@ -19,7 +19,7 @@ header div {
     /* float: left; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* background-color: #4aaaa5; */
-    background-color: yellow;
+    background-color: lightblue;
     /* color: red; */
     height: 75px;
     width: 960px;
@@ -28,7 +28,7 @@ header div {
 
 header h1 {
     float: left;
-    background-color: blueviolet;
+    background-color: rgb(245, 200, 192);
     height: 75px;
     padding: 17px 10px;
     box-sizing: border-box;
