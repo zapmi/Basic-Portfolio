@@ -1,56 +1,71 @@
-html {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 header {
     background-color: lightblue;
     height: 75px;
     width: 100%;
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    /* margin: 0; */
+    /* top: 0; */
+    /* margin-bottom: 0; */
     /* float: left; */
+}
+
+header div {
+    /* float: left; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: #4aaaa5; */
+    background-color: yellow;
+    /* color: red; */
+    height: 75px;
+    width: 960px;
+    margin: auto;
 }
 
 header h1 {
     float: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color: white;
+    background-color: blueviolet;
     height: 75px;
-    width: 200px;
-    margin-left: 250px;
-    text-align: center;
-    padding-bottom: 40;
+    padding: 17px 10px;
     box-sizing: border-box;
+    /* clear: both; */
+    margin: 0;
+    /* overflow: auto; */
+    /* background-color: blue; */
+    /* color: red; */
+    /* width: 200px; */
+    /* text-align: center; */
 }
-
-/* header div {
-    height: 75px;
-    background-color: lightblue;
-    margin: 0 auto;
-} */
-
-
 
 nav {
     float: right;
-    padding-top: 49px;
-    padding-right: 40px;
+    padding-top: 47px;
+    margin-right: 13px;
+    /* padding-right: 25px; */
+    /* padding-right: 40px; */
+    /* background-color: green; */
 }
 
 nav a {
-    clear: both;
-    overflow: auto;
-    padding-left: 10px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    /* padding-left: 15px; */
+    /* padding-top: 20px; */
+    /* clear: both; */
+    /* overflow: auto; */
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    /* removes underline from links */
 }
 
 .sectionIndex {
     background-color: blue;
+    color: white;
     width: 960px;
-    position: relative;
-    margin-top: 95px;
+    /* position: relative; */
+    margin: 0 auto;
+    margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -95,13 +110,11 @@ footer {
 
 /* added section to footer to move copyright text down */
 
-/* .footerSection {
+footer section {
     background-color: gray;
-    margin-top: 10px;
+    margin-top: 50px;
     /* position: fixed; */
-
-/* width: auto; */
-
+    /* width: 40px; */
 }
 
 */ #messageBox {
