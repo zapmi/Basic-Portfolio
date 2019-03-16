@@ -72,10 +72,11 @@ nav a {
     box-sizing: border-box;
 }
 
-section h1 {
+#indexH1 {
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
+    /* color: red; */
     color: #4aaaa5;
     padding-left: 20px;
     border-bottom: 1px solid red;
@@ -119,17 +120,32 @@ footer section {
 
 .contactSection {
     width: 960px;
+    height: 375px;
     background-color: blue;
     margin: 0 auto;
     margin-top: 30px;
 }
 
+#contactH1 {
+        font-size: 2em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+        /* color: red; */
+        color: #4aaaa5;
+        padding-left: 20px;
+        border-bottom: 1px solid red;
+        padding-top: 10px;
+        margin-bottom: 10px;
+
+}
+
 .inputBoxes {
     margin-left: 30px;
     color: white;
+    
 }
 
 #messageBox {
     width: 400px;
-    height: 180px;
+    height: 150px;
 }
