@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-image: url("../images/psychedelic_pattern_@2X.png");
 }
 
 header {
@@ -59,10 +60,10 @@ nav a {
     text-decoration: none;
     /* removes underline from links */
 }
+
 nav a:hover {
     color: red;
     text-decoration: line-through;
-    
 }
 
 .sectionIndex {
@@ -70,7 +71,7 @@ nav a:hover {
     color: white;
     width: 960px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -105,7 +106,6 @@ footer {
     text-align: center;
     height: 75px;
     width: 100%;
-    /* padding-top: 15px; */
     border-top: 4px solid #4aaaa5;
     position: fixed;
     bottom: 0;
@@ -126,7 +126,7 @@ footer section {
     height: 375px;
     background-color: blue;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0px 20px;
     box-sizing: border-box;
 }
@@ -161,10 +161,8 @@ footer section {
 .sectionPortfolio {
     background-color: blue;
     width: 960px;
-    height: 0 auto;
-
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0px 20px 30px 20px;
     box-sizing: border-box;
 }
@@ -177,7 +175,6 @@ footer section {
 .sectionImage {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .portfolioItem {
@@ -189,8 +186,6 @@ footer section {
     /* float: left; */
     margin: .7em;
     /* padding: 20px; */
-    
-
 }
 
 #portfolioSection {
@@ -202,23 +197,22 @@ footer section {
     background-image: url(../images/lokisphynx6.jpg);
     /* width: 120px;
     height: 20px; */
-
 }
+
 #portfolio2 {
     background-image: url(../images/lokisphynx4.jpg);
-
 }
+
 #portfolio3 {
     background-image: url(../images/lokisphynx2.jpg);
-
 }
+
 #portfolio4 {
     background-image: url(../images/lokisphynx5.jpg);
-
 }
+
 #portfolio5 {
     background-image: url(../images/lokisphynx3.jpg);
-
 }
 
 h4 {
@@ -232,5 +226,4 @@ h4 {
     font-size: 1.3em;
     font-variant: small-caps;
     margin: 0;
-
 }
