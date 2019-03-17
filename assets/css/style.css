@@ -187,7 +187,7 @@ footer section {
     height: 225px;
     position: relative;
     /* float: left; */
-    margin: .5em;
+    margin: .7em;
     /* padding: 20px; */
     
 
@@ -199,25 +199,25 @@ footer section {
 }
 
 #portfolio1 {
-    background-image: url(../images/lokisphynx.jpg);
+    background-image: url(../images/lokisphynx6.jpg);
     /* width: 120px;
     height: 20px; */
 
 }
 #portfolio2 {
-    background-image: url(../images/lokisphynx.jpg);
+    background-image: url(../images/lokisphynx4.jpg);
 
 }
 #portfolio3 {
-    background-image: url(../images/lokisphynx.jpg);
+    background-image: url(../images/lokisphynx2.jpg);
 
 }
 #portfolio4 {
-    background-image: url(../images/lokisphynx.jpg);
+    background-image: url(../images/lokisphynx5.jpg);
 
 }
 #portfolio5 {
-    background-image: url(../images/lokisphynx.jpg);
+    background-image: url(../images/lokisphynx3.jpg);
 
 }
 
@@ -225,11 +225,11 @@ h4 {
     position: absolute;
     bottom: 1em;
     background-color: rgba(84, 74, 230, 0.39);
-    /* color: white; */
+    color: white;
     width: 100%;
     padding: .3em 0;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-variant: small-caps;
     margin: 0;
 
