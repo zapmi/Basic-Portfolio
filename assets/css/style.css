@@ -39,10 +39,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
-    color: red;
-    text-decoration: line-through;
-}
+
 
 .sectionIndex {
     background-color: blue;
@@ -118,6 +115,15 @@ footer section {
     color: white;
 }
 
+#inputButton {
+    background-color: rgb(245, 200, 192);
+    padding: 10px 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 #messageBox {
     width: 400px;
     height: 150px;
@@ -152,6 +158,21 @@ footer section {
 #portfolioSection {
     display: flex;
     flex-wrap: wrap;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+}
+
+div a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: line-through;
 }
 
 #portfolio1 {
