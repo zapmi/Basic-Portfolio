@@ -80,7 +80,7 @@ footer {
     width: 100%;
     border-top: 6px solid #4aaaa5;
     margin-top: 140px;
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
 }
 
